@@ -18,3 +18,44 @@ The model can identify the following PCB defects:
 - **Real-Time Detection**: Capable of detecting defects in real-time.
 - **Custom Dataset**: Built with a combination of Kaggle datasets and custom-annotated images to improve detection accuracy.
 - **Transfer Learning**: Fine-tuned YOLOv8 for PCB defect detection to leverage pre-trained weights and reduce training time.
+
+
+## How to Use
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/your-username/pcb-defect-detection.git
+    cd pcb-defect-detection
+    ```
+
+2. **Install Dependencies**:
+    Install the required libraries by running:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Prepare Data**:
+    Place your dataset in the `data/` directory.
+
+4. **Train the Model**:
+    Run the training script to fine-tune the YOLOv8 model on your dataset:
+    ```bash
+    python train.py
+    ```
+
+5. **Run Inference**:
+    To test the model and run inference on a new PCB image, use the following command:
+    ```bash
+    python inference.py --image path_to_image
+    ```
+
+6. **Evaluation**:
+    Check the evaluation metrics and performance results after training to assess model accuracy.
+
+## Demo
+Here is a sample detection output using the trained model:
+
+![Demo](path_to_demo_image)
+
+## Conclusion
+This project showcases the potential of AI in automating defect detection for PCB manufacturing, significantly reducing human error and increasing efficiency. With YOLOv8 and transfer learning, this model provides a reliable and fast solution to detect critical PCB defects in real-time.
+
