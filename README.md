@@ -51,10 +51,6 @@ The model can identify the following PCB defects:
 6. **Evaluation**:
     Check the evaluation metrics and performance results after training to assess model accuracy.
 
-## Demo
-Here is a sample detection output using the trained model:
-
-![Demo](path_to_demo_image)
 
 ## Conclusion
 This project showcases the potential of AI in automating defect detection for PCB manufacturing, significantly reducing human error and increasing efficiency. With YOLOv8 and transfer learning, this model provides a reliable and fast solution to detect critical PCB defects in real-time.
