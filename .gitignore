@@ -1,0 +1,10 @@
+Annotations/
+data/
+dataset/
+models/
+PCB_DATASET/
+runs/
+XmlToTxt/
+data.yaml
+*.zip
+newtransferLearning.pt
